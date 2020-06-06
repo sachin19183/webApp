@@ -79,3 +79,7 @@ button {
     bottom:325px;
     left:600px;
 }
+bottomline {
+    position:relative;
+    top:20px;
+}
