@@ -7,7 +7,7 @@ h1 {
 }
 h3 {
     color: #00FF00;
-    text-align: justify;
+    text-align: center;
     font-weight:bolder;
     font-style: italic;
     font-size:35px;
@@ -20,47 +20,57 @@ p {
     font-size: 25px;
 }
 #FirstBlock {
-    position:absolute;
+   /* position:absolute;
     left:10px;
     top: 200px;
+    */
+    position: relative;
+    top:30px;
+    left:20px;
 }
 #FirstBlank {
     position: relative;
-    top:30px;
-    left:120px;  
+    bottom:20px;
+    left:130px;  
 }
+
 #SecondBlock {
-    position:absolute;
+    position:relative;
+    bottom: 70px;
     left:310px;
-    top: 200px;
 }
+
 #SecondBlank {
     position: relative;
-    top:30px;
-    left:340px;  
+    bottom:120px;
+    left:530px;  
 }
+
 #ThirdBlock {
-    position:absolute;
+    position:relative;
+    bottom: 170px;
     left:710px;
-    top: 200px;
 }
+
 #ThirdBlank {
     position: relative;
-    top:30px;
-    left:400px;  
+    bottom:220px;
+    left:760px;  
 }
+
 #FourthBlock {
-    position:absolute;
+    position:relative;
+    bottom:225px;
     left:20px;
-    top: 250px;
 }
+
 #FourthBlank {
-    position: absolute;
-    top:280px;
-    left:220px;  
+    position: relative;
+    bottom:275px;
+    left:200px;  
 }
 #FifthBlock {
-    position:absolute;
+    position:relative;
+    bottom:325px;
     left:400px;
-    top: 250px;
 }
