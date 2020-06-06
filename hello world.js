@@ -1,1 +1,4 @@
-print('hello world!!1')
+console.log('Test comment for console');
+var myVar=87;
+myVar =myVar++;
+console.log(myVar);
